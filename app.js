@@ -70,8 +70,6 @@ class Bd {
 
 		let despesasFiltradas = Array()
 		despesasFiltradas = this.recuperarTodosRegistros()
-		console.log(despesasFiltradas);
-		console.log(despesa)
 
 		//ano
 		if(despesa.ano != ''){
